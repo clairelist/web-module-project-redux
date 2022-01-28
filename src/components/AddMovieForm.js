@@ -24,7 +24,7 @@ const AddMovieForm = (props) => {
 
     const handleSubmit = (e) => {
         e.preventDefault(); //ALWAYS prevent default!!
-        props.addMovie(movie);
+       props.addMovie(movie);
         push('/movies');
     }
 
